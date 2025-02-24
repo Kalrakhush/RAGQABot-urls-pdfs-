@@ -1,17 +1,19 @@
 # README
 
-## Financial QA Bot on Profit & Loss (P&L) Data
+## QA Bot (URLs,Files)
 
 ### Overview
-This repository contains the source code for a QA bot designed to analyze Profit & Loss (P&L) data from uploaded PDF documents. The bot provides an interactive interface for users to query financial data in real time, leveraging advanced NLP models and indexing techniques.
+This repository contains the source code for a QA bot designed from uploaded PDF documents and URLs. The bot provides an interactive interface for users to query financial data in real time, leveraging advanced NLP models and indexing techniques.
 
 ---
 
 ## Features
 
+
 - **Upload Multiple PDFs:** Users can upload multiple PDF files containing financial data.
+- **URL Ingestion:** Users can input URLs to ingest web page content using llama_index’s built-in SimpleWebPageReader.
 - **Query Financial Information:** Enter queries to extract specific financial insights.
-- **Display Relevant Results:** Responses are displayed with relevant excerpts from the uploaded documents.
+- **Display Relevant Results:** Responses are displayed with relevant excerpts from the ingested documents or web pages.
 - **State-of-the-Art Models:** Utilizes the Gemini-1.5-flash LLM and BAAI/bge-small-en-v1.5 embedding model.
 - **Asynchronous Processing:** Handles large datasets and multiple queries efficiently.
 
